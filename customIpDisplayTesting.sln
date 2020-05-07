@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "customIpDisplayTesting", "customIpDisplayTesting\customIpDisplayTesting.csproj", "{87C76B71-A9C5-41B1-A0E9-94CC9F8DD07F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87C76B71-A9C5-41B1-A0E9-94CC9F8DD07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C76B71-A9C5-41B1-A0E9-94CC9F8DD07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C76B71-A9C5-41B1-A0E9-94CC9F8DD07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C76B71-A9C5-41B1-A0E9-94CC9F8DD07F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A49C8CF7-D847-45C0-9CF8-0F7B596FE1B7}
+	EndGlobalSection
+EndGlobal
