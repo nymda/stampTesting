@@ -53,11 +53,11 @@ namespace customIpDisplayTesting
             }
 
             //leave space for a 2px buffer
-            setWidth = setWidth + 4;
-            int setHeight = (int)_ipSize.Height + (int)_upSize.Height + 6;
+            setWidth = setWidth + 8;
+            int setHeight = (int)_ipSize.Height + (int)_upSize.Height + 8;
 
             canvas = new Bitmap(setWidth, setHeight);
-            Graphics g = Graphics.FromImage(canvas);
+            g = Graphics.FromImage(canvas);
 
             Color midGray = Color.FromArgb(128, 128, 128);
             Color vDarkGray = Color.FromArgb(64, 64, 64);
@@ -70,6 +70,9 @@ namespace customIpDisplayTesting
             g.DrawLine(OnePxVDarkGray, 1, 1, 1, setHeight);
             g.DrawLine(OnePxVDarkGray, 0, setHeight - 1, setWidth - 2, setHeight - 1);
             g.DrawLine(OnePxVDarkGray, 0, setHeight - 2, setWidth - 3, setHeight - 2);
+
+            g.DrawString(ip, luc, Brushes.Black, 4, 6);
+            g.DrawString(userpass, luc, Brushes.Black, 4, 6 + (int)_ipSize.Height);
 
             return canvas;
         }
